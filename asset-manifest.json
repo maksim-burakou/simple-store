@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/TestTask-Store/static/css/main.6c17552e.css",
+    "main.js": "/TestTask-Store/static/js/main.ba3c4920.js",
+    "static/media/best-price.png": "/TestTask-Store/static/media/best-price.aa0ab2d7d737d4eb67f4.png",
+    "static/media/discount.png": "/TestTask-Store/static/media/discount.9d3c3a8272204cbefa9c.png",
+    "static/media/badge.png": "/TestTask-Store/static/media/badge.e3aacb7e9721fdd69045.png",
+    "static/media/loupe.png": "/TestTask-Store/static/media/loupe.01572229faa823832b4c.png",
+    "static/media/cart.png": "/TestTask-Store/static/media/cart.b963fd0073178ec188a9.png",
+    "index.html": "/TestTask-Store/index.html",
+    "main.6c17552e.css.map": "/TestTask-Store/static/css/main.6c17552e.css.map",
+    "main.ba3c4920.js.map": "/TestTask-Store/static/js/main.ba3c4920.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6c17552e.css",
+    "static/js/main.ba3c4920.js"
+  ]
+}
