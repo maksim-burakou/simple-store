@@ -1,5 +1,5 @@
 import { useProduct } from '../../hooks/useProduct'
-import { productStatus } from '../../models//productStatus'
+import { productStatus } from '../../models/productStatus'
 import { amountTypeModification } from '../../models/amountModifier'
 import './styles.scss'
 

@@ -8,7 +8,7 @@ export const useProduct = () => {
   const { cartList, addPurchase, modifyPurchaseAmount, totalPrice } =
     useCartContext()
 
-  const pathnameArray = window.location.pathname.split('/')
+  const pathnameArray = window.location.hash.split('/')
   const productId = pathnameArray[pathnameArray.length - 1]
   const poductInCartInfo = getProduct(Number(productId), cartList)
   const productInfo = getProduct(Number(productId), products.flat())
