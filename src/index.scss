@@ -1,0 +1,71 @@
+@import './theme/fonts.scss';
+@import './theme/colors.scss';
+@import './theme/spacing.scss';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+html,
+body {
+  width: 100%;
+  min-height: 100vh;
+  font-family: $font-default;
+  color: $color-black;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+p {
+  margin: 0;
+}
+
+::-webkit-scrollbar {
+  width: 18px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: $color-background;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: $ui-06;
+  border-radius: spacer(4);
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: $ui-05;
+}

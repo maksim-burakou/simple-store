@@ -1,0 +1,28 @@
+@import '../../../theme/colors.scss';
+@import '../../../theme/spacing.scss';
+@import '../../../theme/fonts.scss';
+@import '../../../theme/variables.scss';
+
+.input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  max-width: $breakpoint-md;
+  width: 100%;
+  height: 50px;
+  border-radius: 100px;
+  border: 2px solid $color-black;
+  padding: 0 spacer(3);
+  margin: 0 auto;
+  .input__icon {
+    display: block;
+    height: 25px;
+    margin-right: spacer(3);
+  }
+  .input {
+    width: 100%;
+    font-size: $font-size-xxl;
+    border: none;
+    outline: none;
+  }
+}

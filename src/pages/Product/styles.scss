@@ -1,0 +1,115 @@
+@import "../../theme/shadows.scss";
+@import "../../theme/colors.scss";
+@import "../../theme/spacing.scss";
+@import "../../theme/fonts.scss";
+@import "../../theme/variables.scss";
+
+.product {
+  position: relative;
+  max-width: $breakpoint-xl;
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid $color-border;
+  border-radius: spacer(2);
+  background-color: $color-white;
+  box-shadow: $shadow-secondary;
+  overflow: hidden;
+  transition: all 0.5s;
+
+  &__header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-top-left-radius: spacer(2);
+    border-top-right-radius: spacer(2);
+    padding: spacer(3);
+    background-color: $color-background;
+
+    h1 {
+      font-weight: $font-weight-black;
+      font-size: $font-size-xxxl;
+      span {
+        text-decoration: underline;
+      }
+    }
+  }
+  &__content {
+    display: flex;
+  }
+
+  &__image {
+    display: block;
+    width: 50%;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    height: 100%;
+    margin: spacer(4) spacer(5);
+    font-size: $font-size-lg;
+    h2 {
+      margin-bottom: spacer(3);
+    }
+    span {
+      font-weight: $font-weight-black;
+    }
+  }
+
+  &__price {
+    display: flex;
+    align-items: flex-end;
+    margin-top: spacer(3);
+    span {
+      display: inline-block;
+      margin-right: spacer(1);
+    }
+    h1 {
+      font-size: $font-size-lg;
+      text-decoration: underline;
+    }
+    .product-price--prev {
+      font-size: $font-size-lg;
+    }
+  }
+
+  &__amount {
+    display: flex;
+    align-items: flex-start;
+    margin-top: spacer(3);
+    p {
+      font-size: $font-size-lg;
+      font-weight: $font-weight-black;
+      margin-right: spacer(1);
+    }
+    button {
+      top: spacer(2);
+      right: spacer(2);
+      margin: 0 spacer(2);
+      background: none;
+      color: $color-highlited;
+    }
+    span {
+      font-weight: $font-weight-light;
+    }
+  }
+
+  @media (max-width: $breakpoint-md) {
+    &__content {
+      flex-direction: column;
+    }
+    &__image {
+      display: block;
+      width: 100%;
+      margin-right: 0;
+    }
+    &__info {
+      width: 100%;
+      padding: spacer(4) spacer(5);
+      margin: 0;
+    }
+  }
+}

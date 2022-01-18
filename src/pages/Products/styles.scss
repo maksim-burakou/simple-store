@@ -1,0 +1,21 @@
+@import '../../theme/fonts.scss';
+@import '../../theme/spacing.scss';
+@import '../../theme/colors.scss';
+
+.grid-wrapper {
+  margin-top: spacer(3);
+}
+
+.no-more-products {
+  font-size: $font-size-xl;
+  text-align: center;
+  color: $color-primary;
+}
+
+.products-status {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+}

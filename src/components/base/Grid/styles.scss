@@ -1,0 +1,10 @@
+@import '../../../theme/spacing.scss';
+
+.grid {
+  width: 100%;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 250px);
+  grid-gap: spacer(2);
+  grid-row-gap: spacer(4);
+}

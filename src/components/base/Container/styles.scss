@@ -1,0 +1,9 @@
+@import '../../../theme/spacing.scss';
+@import '../../../theme/variables.scss';
+
+.container {
+  max-width: $breakpoint-xxl;
+  width: 100%;
+  padding: 0 spacer(2);
+  margin: 0 auto;
+}

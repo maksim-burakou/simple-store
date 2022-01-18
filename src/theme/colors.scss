@@ -1,0 +1,37 @@
+$color-white: #ffffff;
+$color-black: #000000;
+$color-border: #e2e2e2;
+$color-background: #f5f5f5;
+$color-primary: #666666;
+$color-highlited: #ec0101;
+$color-black-transparent-07: rgba(0, 0, 0, 0.7);
+
+$ui-01: var(--contrast-secondary, #f5f5f5);
+$ui-02: var(--contrast-secondary, #ecf1f5);
+$ui-03: var(--contrast-primary, #dce3e6);
+$ui-04: var(--contrast-primary, #b5c9d5);
+$ui-05: var(--contrast-primary, #7998a6);
+$ui-06: var(--contrast-primary, #4c536a);
+$ui-07: var(--contrast-primary, #1e2a42);
+$ui-08: var(--contrast-primary, #000000);
+
+$brand-01-c: #da2f98;
+$brand-01: var(--contrast-primary, $brand-01-c);
+$brand-01-darken: var(--contrast-primary, darken($brand-01-c, 5%));
+
+$brand-02: var(--contrast-primary, #519cac);
+$brand-03: var(--contrast-primary, #2052a8);
+$brand-04: var(--contrast-primary, #ecb22f);
+$brand-05: var(--contrast-secondary, #f0edee);
+$brand-06: var(--contrast-primary, #be4026);
+$brand-01-hover: var(--contrast-primary, #b0036e);
+$brand-02-hover: var(--contrast-secondary, #bedee4);
+$brand-02-light: var(--contrast-secondary, #eaf4f6);
+$brand-03-hover: var(--contrast-primary, #88add2);
+$brand-03-light: var(--contrast-secondary, #e2effd);
+
+$color-custom-00001: rgba(0, 0, 0, 0.1);
+$color-custom-00002: rgba(0, 0, 0, 0.2);
+$color-custom-00007: rgba(0, 0, 0, 0.7);
+
+$ui-01-custom-05: rgba(255, 255, 255, 0.5);

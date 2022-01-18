@@ -1,0 +1,47 @@
+@import '../../../theme/colors.scss';
+@import '../../../theme/spacing.scss';
+
+.purchase {
+  position: relative;
+  width: 100%;
+  background-color: $color-background;
+  padding: spacer(2);
+  border-radius: spacer(2);
+  margin-bottom: spacer(2);
+
+  &__title {
+    margin-bottom: spacer(1);
+  }
+
+  .purchase__info {
+    display: flex;
+    justify-content: space-between;
+
+    .purchase__price {
+      text-decoration: underline;
+    }
+  }
+
+  .purchase__amount {
+    display: flex;
+    button {
+      top: spacer(2);
+      right: spacer(2);
+      margin: 0 spacer(2);
+      background: none;
+      color: $color-highlited;
+    }
+  }
+
+  &__button {
+    position: absolute;
+    top: spacer(2);
+    right: spacer(2);
+    background: none;
+    color: $color-highlited;
+    &:active,
+    &:focus {
+      outline: none;
+    }
+  }
+}

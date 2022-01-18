@@ -1,0 +1,31 @@
+$spacer: 8px;
+$spacers: (
+  0: 0,
+  1: calc($spacer / 2),
+  2: $spacer,
+  3: calc($spacer * 2),
+  4: calc($spacer * 3),
+  5: calc($spacer * 4),
+  6: calc($spacer * 5),
+  7: calc($spacer * 6),
+  8: calc($spacer * 7),
+  9: calc($spacer * 8),
+  10: calc($spacer * 9),
+  11: calc($spacer * 10),
+);
+
+@function spacer($key) {
+  @return map-get($spacers, $key);
+}
+
+@function n-spacer($key) {
+  @return -#{spacer($key)};
+}
+
+@function spacer-half($key) {
+  @return spacer($key) / 2;
+}
+
+@function n-spacer-half($key) {
+  @return -#{spacer($key) / 2};
+}
